@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 //tags = {"@Search-Cars"},
 @CucumberOptions(
       plugin = {"json:target/RunCuke/cucumber.json", "pretty"},
-      features = "src/test/resources/features/",
+      features = "src/test/resources/features/searchCars.feature",
       glue = "stepDefinitions",
       monochrome = true
       )
