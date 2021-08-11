@@ -15,7 +15,7 @@ public class CarsGuideHomePageActions {
 	public CarsGuideHomePageActions() {
 		carsGuideHomePageLocators = new CarsGuideHomePageLocators();
 		PageFactory.initElements(SeleniumDriver.getDriver(), carsGuideHomePageLocators);
-
+		System.out.println("Testing jenkins");
 	}
 
 	
