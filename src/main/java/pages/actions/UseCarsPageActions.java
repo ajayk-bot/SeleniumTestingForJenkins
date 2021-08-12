@@ -14,6 +14,7 @@ public class UseCarsPageActions {
 	public UseCarsPageActions() {
 		useCarsPageLocators = new UseCarsPageLocators();
 		PageFactory.initElements(SeleniumDriver.getDriver(), useCarsPageLocators);
+		System.out.println("Jenkins test");
 	}
 	
 	public void select_UseCarsAnyMakeDropDown(String carBrand) {
